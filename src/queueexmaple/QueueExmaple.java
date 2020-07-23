@@ -5,6 +5,8 @@
  */
 package queueexmaple;
 
+import java.util.HashMap;
+
 /**
  *
  * @author Dream Tech
@@ -31,6 +33,9 @@ public class QueueExmaple {
         System.out.println("item: "+ ouQueueArray.deQueue());
          System.out.println("Front: "+ouQueueArray.front);
          System.out.println("Rear: "+ouQueueArray.rear);
+         
+         HashMap a=new HashMap();
+         
          
          
         
